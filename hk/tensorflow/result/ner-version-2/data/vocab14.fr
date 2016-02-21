@@ -1,0 +1,12 @@
+_PAD
+_GO
+_EOS
+_UNK
+I-LOC
+B-ORG
+O
+I-PER
+I-MISC
+B-MISC
+I-ORG
+B-LOC
