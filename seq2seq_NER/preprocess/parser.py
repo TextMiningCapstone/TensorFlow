@@ -18,6 +18,8 @@ def parser(str):
     for i in range(min(len(words)-1, WINDOW_SIZE/2)):
         seq = seq[1:]+["_EOS"]
         rst.append(seq)
+    for i in range(len(rst)):
+        rst[i] = ' '.join(rst[i])
     return rst
 
 if __name__ == "__main__":
